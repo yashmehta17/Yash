@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,800");
+
+html, body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: "Raleway";
+    color:#6f7577;
+}
+
+body{
+    background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+    text-align: center;
+    position: relative;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    /* top: 50%;
+    width: 100%; */
+    color: white;
+    font-size: x-large;
+    opacity: 1;
+    margin-top: 400px; 
+    margin-bottom: 200px;
+    transition: font-size 1s; 
+}
+
+.heading:hover{
+    font-size: xx-large;
+}
+
+h2{
+    font-variant-caps: all-petite-caps;
+    font-size: 30pt;
+}
+.table tr td img{
+    width: 100px;
+    height: 100px;
+}
+/* .education-image{
+	width: 100px;
+    height: 100px;
+} */
+
+.container{
+    margin: auto;
+    width: 40%;
+    background: rgb(255, 255, 255, 0.95);
+    padding: 20px;
+    text-align: center;
+}
+
+.container div:hover{
+    color: black;
+}
+
+.left{
+    float: left;
+}
+
+.textleft{
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.textright{
+    text-align: right;
+    padding: 20px 0px;
+}
+
+.right{
+    float: right;
+}
+
+.table{
+    width: 100%;
+}
+
+.microsoftimg{
+    width: 100%;
+}
+
+.project{
+    text-align: left;
+}
+
+.link{
+    float: right;
+    font-size: medium;
+    padding-right: 20px;
+    white-space: nowrap;
+    font-weight: 100;
+    color: rgb(111, 111, 252);
+}
+
+.link:hover{
+    color: blue;
+}
+
+.getInTouch{
+    padding: 20px;
+    border: 2px solid #6f7577;
+    border-radius: 5px;
+    color: #6f7577;
+}
+
+.getInTouch:hover{
+    color: black;
+    border: 2px solid black;
+}
+
+footer{
+    color: white;
+    font-size: medium;
+    width: 300px;
+    margin: auto;
+}
+
+footer a{
+    color: white;
+}
