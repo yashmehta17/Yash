@@ -1,2 +1,2 @@
-# yash
+# Yash
 Personal Website
